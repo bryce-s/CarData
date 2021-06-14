@@ -1,0 +1,308 @@
+[
+  {
+    "id": "AR",
+    "percentage": "0.0061162079510703364",
+    "numericId": "03",
+    "val": "05"
+  },
+  {
+    "id": "MT",
+    "percentage": "0.0077323919986552365",
+    "numericId": "27",
+    "val": "30"
+  },
+  {
+    "id": "ND",
+    "percentage": "0.008912655971479501",
+    "numericId": "29",
+    "val": "38"
+  },
+  {
+    "id": "UT",
+    "percentage": "0.009562841530054645",
+    "numericId": "45",
+    "val": "49"
+  },
+  {
+    "id": "ID",
+    "percentage": "0.009930915371329879",
+    "numericId": "14",
+    "val": "16"
+  },
+  {
+    "id": "NE",
+    "percentage": "0.011850501367365542",
+    "numericId": "30",
+    "val": "31"
+  },
+  {
+    "id": "MI",
+    "percentage": "0.012875062164999724",
+    "numericId": "23",
+    "val": "26"
+  },
+  {
+    "id": "MN",
+    "percentage": "0.013455970022142735",
+    "numericId": "24",
+    "val": "27"
+  },
+  {
+    "id": "SD",
+    "percentage": "0.013754045307443365",
+    "numericId": "42",
+    "val": "46"
+  },
+  {
+    "id": "KS",
+    "percentage": "0.015057573073516387",
+    "numericId": "17",
+    "val": "20"
+  },
+  {
+    "id": "ME",
+    "percentage": "0.015335235378031383",
+    "numericId": "22",
+    "val": "23"
+  },
+  {
+    "id": "WA",
+    "percentage": "0.015791018491341357",
+    "numericId": "48",
+    "val": "53"
+  },
+  {
+    "id": "OR",
+    "percentage": "0.016404998397949375",
+    "numericId": "38",
+    "val": "41"
+  },
+  {
+    "id": "IA",
+    "percentage": "0.016546018614270942",
+    "numericId": "13",
+    "val": "19"
+  },
+  {
+    "id": "DE",
+    "percentage": "0.01670378619153675",
+    "numericId": "09",
+    "val": "10"
+  },
+  {
+    "id": "VT",
+    "percentage": "0.017169179229480736",
+    "numericId": "47",
+    "val": "50"
+  },
+  {
+    "id": "AK",
+    "percentage": "0.01801070907025799",
+    "numericId": "01",
+    "val": "02"
+  },
+  {
+    "id": "OK",
+    "percentage": "0.018458197611292075",
+    "numericId": "37",
+    "val": "40"
+  },
+  {
+    "id": "IN",
+    "percentage": "0.01974198592650508",
+    "numericId": "16",
+    "val": "18"
+  },
+  {
+    "id": "WV",
+    "percentage": "0.020168067226890758",
+    "numericId": "50",
+    "val": "54"
+  },
+  {
+    "id": "NH",
+    "percentage": "0.0204009848751319",
+    "numericId": "31",
+    "val": "33"
+  },
+  {
+    "id": "OH",
+    "percentage": "0.022209268434858643",
+    "numericId": "36",
+    "val": "39"
+  },
+  {
+    "id": "MS",
+    "percentage": "0.022290545734050732",
+    "numericId": "26",
+    "val": "28"
+  },
+  {
+    "id": "CO",
+    "percentage": "0.02249375173562899",
+    "numericId": "06",
+    "val": "08"
+  },
+  {
+    "id": "AL",
+    "percentage": "0.023055881203595155",
+    "numericId": "02",
+    "val": "01"
+  },
+  {
+    "id": "MO",
+    "percentage": "0.023624401913875596",
+    "numericId": "25",
+    "val": "29"
+  },
+  {
+    "id": "AZ",
+    "percentage": "0.024863502729945402",
+    "numericId": "04",
+    "val": "04"
+  },
+  {
+    "id": "WI",
+    "percentage": "0.025043573984038163",
+    "numericId": "49",
+    "val": "55"
+  },
+  {
+    "id": "KY",
+    "percentage": "0.02534562211981567",
+    "numericId": "18",
+    "val": "21"
+  },
+  {
+    "id": "CT",
+    "percentage": "0.025998336106489186",
+    "numericId": "07",
+    "val": "09"
+  },
+  {
+    "id": "WY",
+    "percentage": "0.026223776223776224",
+    "numericId": "51",
+    "val": "56"
+  },
+  {
+    "id": "NM",
+    "percentage": "0.027284105131414268",
+    "numericId": "33",
+    "val": "35"
+  },
+  {
+    "id": "LA",
+    "percentage": "0.028368794326241134",
+    "numericId": "19",
+    "val": "22"
+  },
+  {
+    "id": "TN",
+    "percentage": "0.02866871704745167",
+    "numericId": "43",
+    "val": "47"
+  },
+  {
+    "id": "RI",
+    "percentage": "0.028708133971291867",
+    "numericId": "40",
+    "val": "44"
+  },
+  {
+    "id": "TX",
+    "percentage": "0.02897167888276879",
+    "numericId": "44",
+    "val": "48"
+  },
+  {
+    "id": "PA",
+    "percentage": "0.029731813897695143",
+    "numericId": "39",
+    "val": "42"
+  },
+  {
+    "id": "NY",
+    "percentage": "0.03126739185428788",
+    "numericId": "35",
+    "val": "36"
+  },
+  {
+    "id": "IL",
+    "percentage": "0.031671330450267106",
+    "numericId": "15",
+    "val": "17"
+  },
+  {
+    "id": "MA",
+    "percentage": "0.033590780924359444",
+    "numericId": "20",
+    "val": "25"
+  },
+  {
+    "id": "VA",
+    "percentage": "0.03495528974567414",
+    "numericId": "46",
+    "val": "51"
+  },
+  {
+    "id": "NC",
+    "percentage": "0.0392156862745098",
+    "numericId": "28",
+    "val": "37"
+  },
+  {
+    "id": "CA",
+    "percentage": "0.040643838170405816",
+    "numericId": "05",
+    "val": "06"
+  },
+  {
+    "id": "NJ",
+    "percentage": "0.042338897696540145",
+    "numericId": "32",
+    "val": "34"
+  },
+  {
+    "id": "SC",
+    "percentage": "0.04276704769412692",
+    "numericId": "41",
+    "val": "45"
+  },
+  {
+    "id": "FL",
+    "percentage": "0.0435244161358811",
+    "numericId": "010",
+    "val": "12"
+  },
+  {
+    "id": "GA",
+    "percentage": "0.04509870660313138",
+    "numericId": "11",
+    "val": "13"
+  },
+  {
+    "id": "MD",
+    "percentage": "0.046199701937406856",
+    "numericId": "21",
+    "val": "24"
+  },
+  {
+    "id": "DC",
+    "percentage": "0.047701949860724235",
+    "numericId": "08",
+    "val": "11"
+  },
+  {
+    "id": "NV",
+    "percentage": "0.05818815331010453",
+    "numericId": "34",
+    "val": "32"
+  },
+  {
+    "id": "HI",
+    "percentage": "0.0629395218002813",
+    "numericId": "12",
+    "val": "15"
+  }
+]

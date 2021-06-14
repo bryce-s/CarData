@@ -10,7 +10,7 @@ with open('./vehicles.csv', 'r') as read_obj:
     csv_reader = csv.reader(read_obj)
 
     stateToBrandToCount = defaultdict(lambda: defaultdict(lambda: 0))
-    
+
     for row in csv_reader:
         location: str = row[2]
         manufacturer: str = row[6]
@@ -20,17 +20,21 @@ with open('./vehicles.csv', 'r') as read_obj:
                 state = regionToState.regionToStateMapping[location]
             except:
                 print(f'failed to map {location} to a state abbrev.')
-            if state != '' :
+            if state != '':
                 stateToBrandToCount[state][manufacturer] += 1
 
-manufacturers = set([brand for state in stateToBrandToCount.keys() for brand in list(stateToBrandToCount[state].keys())])
-stateToTotalVehicles = dict({state: sum(stateToBrandToCount[state].values()) for state in stateToBrandToCount.keys()})
+manufacturers = set([brand for state in stateToBrandToCount.keys()
+                    for brand in list(stateToBrandToCount[state].keys())])
+
+stateToTotalVehicles = dict({state: sum(
+    stateToBrandToCount[state].values()) for state in stateToBrandToCount.keys()})
 
 stateBrandToPercent = defaultdict(lambda: defaultdict(lambda: 0))
 for state in filter(lambda x: x != "washington, DC", stateToBrandToCount.keys()):
     for brand in stateToBrandToCount[state].keys():
         count: int = stateToBrandToCount[state][brand]
-        stateBrandToPercent[state][brand] = count / stateToTotalVehicles[state] 
+        stateBrandToPercent[state][brand] = count / stateToTotalVehicles[state]
+
 
 def BrandPercentages(stateBrandToPercent: dict, brand: str):
     stateId = 1
@@ -50,5 +54,5 @@ def BrandPercentages(stateBrandToPercent: dict, brand: str):
     with open(filename, "w") as outputFile:
         outputFile.write(jsonRes)
 
-any( BrandPercentages(stateBrandToPercent, brand) for brand in manufacturers )
-    
+
+any(BrandPercentages(stateBrandToPercent, brand) for brand in manufacturers)
